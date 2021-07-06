@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    margin-left: 5%;
+}
+
+.header-title{
+  color:#13b1c0;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 55px;
+}
+.header li{
+  margin-right: 50px;
+  font-weight: 600;
+}
+.header li:hover{
+  color:#13b1c0;
+}
+.seach{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+#q{
+    background: #f4f8fa;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 230px;
+}
+.nav_login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.button {
+  border: 1px solid #eee;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.primaryButton {
+  background: #13b1c0;
+  height: 42px;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  font-weight: 600;
+  padding: 8px 16px;
+  margin-left: 1%;
+  margin-top: 25px;
+}
+
+.bandTitle{
+  background-color: #13b1c0;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background: #13b1c0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+
